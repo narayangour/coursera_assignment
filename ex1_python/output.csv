@@ -1,0 +1,6 @@
+output_result,
+theta_0,4.402646678757354
+theta_1,0.13112298000743516
+epochs,100
+cost,479.249431647
+learning_rate,0.01

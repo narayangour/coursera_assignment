@@ -1,0 +1,96 @@
+
+PCA applying on YALE face database ...
+
+Total current dataset status :
+number of samples : 165 
+number of features: 16384 
+number of classes : 15 
+K-Fold		  : 18
+
+1st :- Running SVM classifier... 
+
+Fold Number | Training | Testing Images | Accuracy_score(%)
+	1 	155 		10 		70.0
+	2 	155 		10 		90.0
+	3 	155 		10 		100.0
+	4 	156 		9 		100.0
+	5 	156 		9 		88.88888888888889
+	6 	156 		9 		77.77777777777779
+	7 	156 		9 		100.0
+	8 	156 		9 		66.66666666666666
+	9 	156 		9 		100.0
+	10 	156 		9 		88.88888888888889
+	11 	156 		9 		66.66666666666666
+	12 	156 		9 		77.77777777777779
+	13 	156 		9 		66.66666666666666
+	14 	156 		9 		88.88888888888889
+	15 	156 		9 		100.0
+	16 	156 		9 		77.77777777777779
+	17 	156 		9 		55.55555555555556
+	18 	156 		9 		77.77777777777779
+|------------------------------------------------------------------|
+|  Final Average accuracy with SVM classifier -  82.96296296296299
+|-------------------------------------------------------------------|
+
+2nd :- Running Logistic Regression classifier... 
+
+Fold Number | Training | Testing Images | Accuracy_score
+	1 	155 		10 		100.0
+	2 	155 		10 		80.0
+/home/softnautics/.local/lib/python2.7/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+	3 	155 		10 		100.0
+	4 	156 		9 		100.0
+	5 	156 		9 		88.88888888888889
+	6 	156 		9 		100.0
+	7 	156 		9 		100.0
+	8 	156 		9 		77.77777777777779
+	9 	156 		9 		100.0
+	10 	156 		9 		88.88888888888889
+	11 	156 		9 		100.0
+	12 	156 		9 		100.0
+	13 	156 		9 		88.88888888888889
+	14 	156 		9 		77.77777777777779
+	15 	156 		9 		100.0
+	16 	156 		9 		100.0
+	17 	156 		9 		88.88888888888889
+	18 	156 		9 		100.0
+|-----------------------------------------------------------------------------|
+|  Final Average accuracy with LogisticRegression classifier- 93.95061728395063
+|------------------------------------------------------------------------------|
+
+3rd :- Running KNN classifier... 
+
+Fold Number | Training | Testing Images | Accuracy_score
+	1 	155 		10 		70.0
+	2 	155 		10 		70.0
+	3 	155 		10 		100.0
+	4 	156 		9 		100.0
+	5 	156 		9 		88.88888888888889
+	6 	156 		9 		77.77777777777779
+	7 	156 		9 		66.66666666666666
+	8 	156 		9 		77.77777777777779
+	9 	156 		9 		88.88888888888889
+	10 	156 		9 		88.88888888888889
+	11 	156 		9 		66.66666666666666
+	12 	156 		9 		77.77777777777779
+	13 	156 		9 		88.88888888888889
+	14 	156 		9 		88.88888888888889
+	15 	156 		9 		88.88888888888889
+	16 	156 		9 		66.66666666666666
+	17 	156 		9 		55.55555555555556
+	18 	156 		9 		77.77777777777779
+|-----------------------------------------------------------------------------|
+|  Final Average accuracy with KNN classifier- 80.00000000000003
+|------------------------------------------------------------------------------|
+
+
+Finel result :
+SVM 		   - 82
+LogisticRegression - 93
+KNN 		   - 80
+
+LogisticRegression have lagest accuracy amongs other classifier with this dataset
+
+
+
